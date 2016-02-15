@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:job="http://www.schemea.hyb.com/schema/job"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+                http://www.schemea.hyb.com/schema/job http://www.schemea.hyb.com/schema/job/job.xsd">
+
+    <job:hyb id="test" class="com.framework.job"></job:hyb>
+
+</beans:beans>
+
