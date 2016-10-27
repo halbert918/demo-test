@@ -14,6 +14,7 @@ public class ZooKeeperOperate {
 
         //创建zookeeper实例，Watcher：监控节点变化的事件
         ZooKeeper zk = new ZooKeeper("192.168.171.128:2181", 50000, new Watcher() {
+
             @Override
             public void process(WatchedEvent watchedEvent) {
                 //节点变化时处理逻辑
@@ -33,7 +34,6 @@ public class ZooKeeperOperate {
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
 //        }
-        Stat stat1 = zk.exists("/mykafka/0/1", false);
 
         Stat stat = zk.exists("/locks", false);
         if(null != stat) {
