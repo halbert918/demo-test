@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="demo-biz" />
+        <module name="demo-common" />
+        <module name="demo-dal" />
+        <module name="demo-ddd" />
+        <module name="demo-dubbo" />
+        <module name="demo-hadoop" />
+        <module name="demo-kafka" />
+        <module name="demo-spring-batch" />
+        <module name="demo-storm" />
+        <module name="demo-test-test" />
+        <module name="demo-util" />
+        <module name="demo-web" />
+        <module name="demo-zk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="demo-biz" target="1.5" />
+      <module name="demo-common" target="1.5" />
+      <module name="demo-dal" target="1.5" />
+      <module name="demo-ddd" target="1.5" />
+      <module name="demo-dubbo" target="1.5" />
+      <module name="demo-hadoop" target="1.5" />
+      <module name="demo-kafka" target="1.8" />
+      <module name="demo-spring-batch" target="1.5" />
+      <module name="demo-storm" target="1.8" />
+      <module name="demo-test" target="1.5" />
+      <module name="demo-test-test" target="1.5" />
+      <module name="demo-util" target="1.5" />
+      <module name="demo-web" target="1.5" />
+      <module name="demo-zk" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

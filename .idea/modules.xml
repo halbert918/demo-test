@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-biz/demo-biz.iml" filepath="$PROJECT_DIR$/demo-biz/demo-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common.iml" filepath="$PROJECT_DIR$/demo-common/demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-dal/demo-dal.iml" filepath="$PROJECT_DIR$/demo-dal/demo-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-ddd/demo-ddd.iml" filepath="$PROJECT_DIR$/demo-ddd/demo-ddd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-dubbo/demo-dubbo.iml" filepath="$PROJECT_DIR$/demo-dubbo/demo-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-hadoop/demo-hadoop.iml" filepath="$PROJECT_DIR$/demo-hadoop/demo-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-kafka/demo-kafka.iml" filepath="$PROJECT_DIR$/demo-kafka/demo-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-spring-batch/demo-spring-batch.iml" filepath="$PROJECT_DIR$/demo-spring-batch/demo-spring-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-storm/demo-storm.iml" filepath="$PROJECT_DIR$/demo-storm/demo-storm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-test.iml" filepath="$PROJECT_DIR$/demo-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-test-test/demo-test-test.iml" filepath="$PROJECT_DIR$/demo-test-test/demo-test-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-util/demo-util.iml" filepath="$PROJECT_DIR$/demo-util/demo-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-zk/demo-zk.iml" filepath="$PROJECT_DIR$/demo-zk/demo-zk.iml" />
+    </modules>
+  </component>
+</project>
