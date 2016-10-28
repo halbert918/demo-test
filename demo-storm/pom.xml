@@ -15,7 +15,6 @@
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-core</artifactId>
-<<<<<<< HEAD
             <version>0.9.6</version>
         </dependency>
 
@@ -34,9 +33,6 @@
             <groupId>demo-test</groupId>
             <artifactId>demo-kafka</artifactId>
             <version>1.0-20150204</version>
-=======
-            <version>0.10.0-beta1</version>
->>>>>>> 0e43ae20a56a09c22e8b1d075b16933c0e3fcddb
         </dependency>
     </dependencies>
 
