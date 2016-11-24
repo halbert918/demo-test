@@ -38,6 +38,9 @@ public class SimpleTopology {
 
             //storm环境下启动
             if (args != null && args.length > 0) {
+                //每个集群Supervisor节点可设置多个worker
+                //设置worker，1个worker对应一个Topology，一个work可开启多个Executor工作线程，
+                //一个Executor对应一个task(spout | bolt)
                 config.setNumWorkers(1);
                 StormSubmitter.submitTopology(args[0], config, builder.createTopology());
             } else {
