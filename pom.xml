@@ -22,13 +22,14 @@
         <module>demo-spring-batch</module>
         <module>demo-ddd</module>
         <module>demo-hadoop</module>
+        <module>demo-netty</module>
     </modules>
 
     <properties>
         <demo-test>1.0-20150204</demo-test>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <slf4j.version>1.6.1</slf4j.version>
-        <spring.maven.artifact.version>3.2.5.RELEASE</spring.maven.artifact.version>
+        <spring.maven.artifact.version>4.0.0.RELEASE</spring.maven.artifact.version>
         <junit.version>4.10</junit.version>
         <logback.version>1.0.6</logback.version>
     </properties>
@@ -329,7 +330,16 @@
                 </includes>
             </resource>
         </resources>
-
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+                <configuration>
+                    <webXml>web\WEB-INF\web.xml</webXml>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 </project>
