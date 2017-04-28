@@ -11,8 +11,12 @@ import java.io.IOException;
  */
 public class SimpleMapper extends Mapper<Object, Text, Text, IntWritable> {
 
+    //存储每行数据
+    private Text line = new Text();
+
     @Override
     protected void map(Object key, Text value, Context context) throws IOException, InterruptedException {
-        super.map(key, value, context);
+        line = value;
+        context.write(line, new IntWritable(1));
     }
 }
